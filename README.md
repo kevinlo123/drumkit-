@@ -1,2 +1,3 @@
 # drumkit-
-see project here https://github.com/kevinlo123/drumkit-.git
+see project here kevinlo123.github.io/drumkit-/drumkit.html
+press the keys "d","r","u","m","s".
