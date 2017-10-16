@@ -1,0 +1,48 @@
+
+body{
+  background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/OVoiMR9/red-curtain-animation-background_eybqt-5kg__F0000.png");
+  background-repeat: no-repeat;
+}
+
+#flex_container{
+  display: flex;
+  justify-content: space-around;
+}
+
+h1{
+  position: absolute;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-size: 4em
+}
+
+#sound1 , #sound2 , #sound3, #sound4, #sound5{
+  height: 125px;
+  width: 125px;
+  border: 1px solid black;
+  position: relative;
+  top: 200px;
+  font-size: 7em;
+  padding-left: 3.5%;
+}
+
+#sound1{
+  background: blue;
+}
+
+#sound2{
+  background: limegreen;
+}
+
+#sound3{
+  background: purple;
+}
+
+#sound4{
+  background: brown;
+}
+
+#sound5{
+  background: red;
+}
