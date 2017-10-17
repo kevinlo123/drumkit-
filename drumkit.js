@@ -13,6 +13,7 @@ function drumSound(e){
   if(e.keyCode == "68"){
     console.log("snare");
     const snare = document.getElementById("snare");
+    snare.currentTime = 0;
     snare.play();
     sound1.style.color = "white";
     sound1.style.boxShadow = "5px 5px 5px black";
@@ -20,6 +21,7 @@ function drumSound(e){
   }else if(e.keyCode == "82"){
     console.log("roll");
     const roll = document.getElementById("roll");
+    roll.currentTime = 0;
     roll.play();
     sound2.style.color = "white";
     sound2.style.boxShadow = "5px 5px 5px black";
@@ -27,6 +29,7 @@ function drumSound(e){
   }else if(e.keyCode == "85"){
     console.log("bass");
     const bass = document.getElementById("bass");
+    bass.currentTime = 0;
     bass.play();
     sound3.style.color = "white";
     sound3.style.boxShadow = "5px 5px 5px black";
@@ -34,6 +37,7 @@ function drumSound(e){
   }else if(e.keyCode == "77"){
     console.log("stick");
     const stick = document.getElementById("stick");
+    stick.currentTime = 0;
     stick.play();
     sound4.style.color = "white";
     sound4.style.boxShadow = "5px 5px 5px black";
@@ -41,6 +45,7 @@ function drumSound(e){
   }else if(e.keyCode == "83"){
     console.log("roll");
     const drumRoll = document.getElementById("drumRoll");
+    drumRoll.currentTime = 0;
     drumRoll.play();
     sound5.style.color = "white";
     sound5.style.boxShadow = "5px 5px 5px black";
