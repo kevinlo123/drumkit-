@@ -1,3 +1,2 @@
 # drumkit-
-see project here 
-@kevinlo123.github.io/drumkit-/drumkit.html
+see project here visit kevinlo123.github.io/drumkit-/drumkit.html
